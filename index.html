@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="widthdevice-width">
+    <title>Muffiny Clicker</title>
+    <link href="css/bootstrap.min.css" rel="          stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stsheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- <a class="navbar-brand" href="#yle">Go to:</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="soundboard.html">Soundboard</a>
+        <a class="nav-item nav-link" href="https://Muffiny-clicker--dlharryo.repl.co">Muffin clicker</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      </div>
+    </div>
+    </nav>
+    <!-- /nav bar -->
+
+    <div class="jumbotron">        
+      <h2>Muffiny Clicker</h2>
+    </div>
+    <div class="container">
+      <div class="row flex-nowrap">
+        <div class="col-xs-6 ">
+          <div class="container ">
+            <p><img onclick="muffinclick()" src="images/muffin.jpg"></p>
+            <h3 class="align-content-center"><span id="muffincount">0</span> muffins</h3>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <h4>Store</h4>
+          <div class="list-group">
+            <button type="button" onClick="buy_baker();" class="list-group-item list-group-item-action btn btn-sm btn-primary"><span id="bakercount">0</span> Bakers (price: <span id="bakerprice">??</span>)</button>
+            <button type="button" onClick="buy_bakery();" class="list-group-item list-group-item-action btn-sm"><span id="bakerycount">0</span> Bakeries (price: <span id="bakeryprice">??</span>)</button> 
+            <button type="button" onClick="buy_factory();" class="list-group-item list-group-item-action btn-sm"><span id="factorycount">0</span> Factories (price: <span id="factoryprice">??</span>)</button> 
+            <button type="button" onClick="buy_country();" class="list-group-item list-group-item-action btn-sm"><span id="countrycount">0</span> Countries (price: <span id="countryprice">??</span>)</button> 
+            <button type="button" onClick="buy_planet();" class="list-group-item list-group-item-action btn-sm"><span id="planetcount">0</span> Planets (price: <span id="planetprice">??</span>)</button> 
+            <button type="button" onClick="buy_solarsystem();" class="list-group-item list-group-item-action btn-sm"><span id="solarsystemcount">0</span> Solar Systems (price: <span id="solarsystemprice">??</span>)</button> </span>
+            <button type="button" onClick="buy_universe();" class="list-group-item list-group-item-action btn-sm"><span id="universecount">0</span> Universes (price: <span id="universeprice">??</span>)</button> 
+          </div>
+        </div>
+      </div>
+      <div class="row flex-nowrap">
+        <div class="col">
+         <h4>News</h4>
+           <p id="messages">If you're not clickin', you're muffiny restin'</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

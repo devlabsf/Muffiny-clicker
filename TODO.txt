@@ -1,0 +1,19 @@
+* Ability to name your muffin company (jumbotron H1)
+  - click on "Muffiny Clicker" and it should put up a dialog box that lets you change it.
+* Animate click on muffin and/or background
+* Format number of cookies displayed with commas and maybe units?
+* Achievements
+  - just a message, nothing more?
+* Show statistics (cookies per second)
+* Number of muffins per click should go up as time goes on
+* Only illuminate upgrades when unlocked
+* Buy upgrade items (make bakers permanently more productive, etc.)
+* Golden Muffin: random appearance of a cookie that generates a bonus number of cookies
+* Visual display of bakers, bakeries, factories etc?
+* Save progress when AFK?
+* Introduce problems (bakers revolt, etc.)
+* There should be a drill thingy
+
+
+COMPLETED:
+* Raise price for auto-clickers depending on how many of each you already have  -John
