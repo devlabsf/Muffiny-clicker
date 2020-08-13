@@ -1,5 +1,4 @@
 EASIER:
-* RIP GALAXIES!
 * statistics
 * soundboard
 * More News items

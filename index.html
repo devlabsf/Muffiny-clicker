@@ -29,7 +29,7 @@
     </div>
     <div class="container">
       <div class="row flex-nowrap">
-        <div class="col-xs ">
+        <div class="col-3 m-1">
           <div class="container ">
             
             <p><img onClick="muffinclick()" src="images/muffin.png" class="rounded pop"></p>
@@ -37,24 +37,37 @@
             <h5 class="align-content-center"><span id="muffincount">0</span> muffins</h5>
           </div>
         </div>
-        <div class="col-xs">
+        <div class="col m-1">
           <h5>Workers</h5>
-          <div class="list-group">
-            <button type="button" onClick="buy_baker();" class="list-group-item list-group-item-action btn btn-sm btn-primary"><span id="bakercount">0</span> Bakers (price: <span id="bakerprice">10</span>)</button>
-            <button type="button" onClick="buy_bakery();" class="list-group-item list-group-item-action btn-sm"><span id="bakerycount">0</span> Bakeries (price: <span id="bakeryprice">??</span>)</button> 
-            <button type="button" onClick="buy_factory();" class="list-group-item list-group-item-action btn-sm"><span id="factorycount">0</span> Factories (price: <span id="factoryprice">??</span>)</button> 
-            <button type="button" onClick="buy_country();" class="list-group-item list-group-item-action btn-sm"><span id="countrycount">0</span> Countries (price: <span id="countryprice">??</span>)</button> 
-            <button type="button" onClick="buy_planet();" class="list-group-item list-group-item-action btn-sm"><span id="planetcount">0</span> Planets (price: <span id="planetprice">??</span>)</button> 
-            <button type="button" onClick="buy_solarsystem();" class="list-group-item list-group-item-action btn-sm"><span id="solarsystemcount">0</span> Solar Systems (price: <span id="solarsystemprice">??</span>)</button>
-            <button type="button" onClick="buy_galaxy();" class="list-group-item list-group-item-action btn-sm"><span id="galaxycount">0</span> Galaxy (price: <span id="galaxyprice">??</span>)</button>
-            <button type="button" onClick="buy_universe();" class="list-group-item list-group-item-action btn-sm"><span id="universecount">0</span> Universes (price: <span id="universeprice">??</span>)</button> 
-            <button type="button" onClick="buy_cosmos();" class="list-group-item list-group-item-action btn-sm"><span id="cosmoscount">0</span> Cosmoses (price: <span id="cosmosprice">??</span>)</button> 
+          <div class="list-group" id="workers">
+            <button type="button" onClick="buy_baker();" class="list-group-item list-group-item-action py-1 small"><span id="bakercount">0</span> Bakers (price: <span id="bakerprice">10</span>)</button>
+            <button type="button" onClick="buy_bakery();" class="list-group-item list-group-item-action py-1 small"><span id="bakerycount">0</span> Bakeries (price: <span id="bakeryprice">??</span>)</button> 
+            <button type="button" onClick="buy_factory();" class="list-group-item list-group-item-action py-1 small"><span id="factorycount">0</span> Factories (price: <span id="factoryprice">??</span>)</button> 
+            <button type="button" onClick="buy_country();" class="list-group-item list-group-item-action py-1 small"><span id="countrycount">0</span> Countries (price: <span id="countryprice">??</span>)</button> 
+            <button type="button" onClick="buy_planet();" class="list-group-item list-group-item-action py-1 small"><span id="planetcount">0</span> Planets (price: <span id="planetprice">??</span>)</button> 
+            <button type="button" onClick="buy_solarsystem();" class="list-group-item list-group-item-action py-1 small"><span id="solarsystemcount">0</span> Solar Systems (price: <span id="solarsystemprice">??</span>)</button>
+            <button type="button" onClick="buy_galaxy();" class="list-group-item list-group-item-action py-1 small"><span id="galaxycount">0</span> Galaxy (price: <span id="galaxyprice">??</span>)</button>
+            <button type="button" onClick="buy_universe();" class="list-group-item list-group-item-action py-1 small"><span id="universecount">0</span> Universes (price: <span id="universeprice">??</span>)</button> 
+            <button type="button" onClick="buy_cosmos();" class="list-group-item list-group-item-action py-1 small"><span id="cosmoscount">0</span> Cosmoses (price: <span id="cosmosprice">??</span>)</button> 
           </div>
-          <div class="col">
-            <h5>Upgrades</h5>
+          <!-- end list-group -->
+        </div>
+        <!-- end column -->
+        <div class="col m-1">
+          <h5>Upgrades</h5>
+          <div class="list-group" id="upgrades">
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade1">Upgrade 1</span> (price: <span id="upgrade1price">??</span>)</button>
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade2">Upgrade 2</span> (price: <span id="upgrade1price">??</span>)</button>
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade3">Upgrade 3</span> (price: <span id="upgrade1price">??</span>)</button>
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade4">Upgrade 4</span> (price: <span id="upgrade1price">??</span>)</button>
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade5">Upgrade 5</span> (price: <span id="upgrade1price">??</span>)</button>
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade6">Upgrade 6</span> (price: <span id="upgrade1price">??</span>)</button>
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade7">Upgrade 7</span> (price: <span id="upgrade1price">??</span>)</button>
+            <button type="button" onClick="buy_upgrade1();" class="list-group-item list-group-item-action py-1 small"><span id="upgrade8">Upgrade 8</span> (price: <span id="upgrade1price">??</span>)</button>
           </div>
         </div>
       </div>
+      <!-- end row -->
       <div class="row flex-nowrap">
         <div class="col">
          <h4>News</h4>
