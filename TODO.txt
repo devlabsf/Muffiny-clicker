@@ -1,19 +1,48 @@
-* Ability to name your muffin company (jumbotron H1)
-  - click on "Muffiny Clicker" and it should put up a dialog box that lets you change it.
-* Animate click on muffin and/or background
-* Format number of cookies displayed with commas and maybe units?
-* Achievements
-  - just a message, nothing more?
-* Show statistics (cookies per second)
-* Number of muffins per click should go up as time goes on
-* Only illuminate upgrades when unlocked
-* Buy upgrade items (make bakers permanently more productive, etc.)
-* Golden Muffin: random appearance of a cookie that generates a bonus number of cookies
-* Visual display of bakers, bakeries, factories etc?
-* Save progress when AFK?
-* Introduce problems (bakers revolt, etc.)
-* There should be a drill thingy
+EASIER:
+* RIP GALAXIES!
+* statistics
+* soundboard
+* More News items
+* muffin types (exotic, golden)
+* Different universes
+Lazlo 4. Add categories: 
+    - "Rolling Pin" is first level
+    - "Continents", between Countries and Planets
+    - "Unknown"
+
+6. Store items should be disabled until unlocked (i.e. when you've gotten enough muffins)
+  - highlight
+  - store item name
+  - store item price
+
+7. Make all messages add to top of message window instead of replacing content.
+  - probably should clear off everything beyond the top 5-10 lines
+
+8. Combine all "worker" functions into one master update function. Tons of repetition across those 8 separate functions.
+
+
+MORE INVOLVED:
+1. Animate <DIV> background behind muffin
+2. Add Achievements
+  - just a message after reaching milestones
+3. Show statistics (cookies per second)
+4. Buy upgrade items (make bakers permanently more productive, clicks worth more, etc.)
+5. Golden Muffin: random appearance of a cookie that generates a bonus number of cookies
+6. Add a visual display with little icons of bakers, bakeries, factories as you add them
+
+HARDER:
+* Save progress
+* Introduce problems that need payoff (bakers revolt, etc.)
 
 
 COMPLETED:
-* Raise price for auto-clickers depending on how many of each you already have  -John
+* Fix NAV BAR
+* New category: galaxies, cosmos
+* Raise price for auto-clickers after each purchase.  -John
+* Format number of cookies displayed with commas and units. - John
+* put HTML into Bootstrap grid. - John
+* Animate clicking on muffin. DONE, 
+* Ability to rename your muffin company (in jumbotron H2)
+* Fix picture
+* Format price of store items displayed in buttons using formatNum() function 
+
